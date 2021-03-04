@@ -55,21 +55,21 @@ public class Tweet {
 	private Date createdAt;
 
 	// Use the code below if your lombok is not working:
-	// public Long getId() {
-	// return id;
-	// }
+	 public Long getId() {
+	 return id;
+	 }
 
-	// public User getUser() {
-	// return user;
-	// }
+	 public User getUser() {
+	 return user;
+	 }
 
 	 public void setUser(User user) {
 	 this.user = user;
 	 }
 
-	// public List<Tag> getTags() {
-	// return tags;
-	// }
+	 public List<Tag> getTags() {
+	 return tags;
+	 }
 
 	 public void setTags(List<Tag> tags) {
 	 this.tags = tags;
@@ -83,19 +83,19 @@ public class Tweet {
 	 this.message = message;
 	 }
 
-	// public Date getCreatedAt() {
-	// return createdAt;
-	// }
+	 public Date getCreatedAt() {
+	 return createdAt;
+	 }
 
-	// public void setCreatedAt(Date createdAt) {
-	// this.createdAt = createdAt;
-	// }
+	 public void setCreatedAt(Date createdAt) {
+	 this.createdAt = createdAt;
+	 }
 
-	// @Override
-	// public String toString() {
-	// return "Tweet [createdAt=" + createdAt + ", id=" + id + ", message=" +
-	// message + ", tags=" + tags
-	// + ", user=" + user + "]";
-	// }
+	 @Override
+	 public String toString() {
+	 return "Tweet [createdAt=" + createdAt + ", id=" + id + ", message=" +
+	 message + ", tags=" + tags
+	 + ", user=" + user + "]";
+	 }
 
 }

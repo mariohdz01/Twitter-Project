@@ -144,5 +144,20 @@ public class User {
 	
 	@ManyToMany(mappedBy="followers")
 	private List<User> following;
+
+	public List<User> getFollowers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setFollowers(List<User> followers2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<User> getFollowing() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
