@@ -147,17 +147,17 @@ public class User {
 
 	public List<User> getFollowers() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.followers;
 	}
 
 	public void setFollowers(List<User> followers2) {
 		// TODO Auto-generated method stub
-		
+		this.followers=followers2;
 	}
 
 	public List<User> getFollowing() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.following;
 	}
 	
 }
